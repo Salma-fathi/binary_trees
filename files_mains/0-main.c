@@ -1,8 +1,8 @@
 #include <stdlib.h>
-#include "../binary_trees.h"
+#include "binary_trees.h"
 
 /**
- * main - Entry point
+ * main - Entry point testing comment
  *
  * Return: Always 0 (Success)
  */
