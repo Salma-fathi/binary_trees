@@ -8,8 +8,7 @@
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
-	size_t height_l;
-	size_t height_r;
+	size_t height_l,size_t height_r;
 	
 	if (tree == NULL)
 		return (0);
@@ -58,7 +57,7 @@ void binary_tree_level(const binary_tree_t *tree, size_t l, void (*func)(int))
  */
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 {
-	size_t height, s;
+	size_t height,s;
 	
 	if (tree == NULL || func == NULL)
 		return;
